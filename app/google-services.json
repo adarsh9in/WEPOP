@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "442375238082",
+    "project_id": "vepop-4a3ca",
+    "storage_bucket": "vepop-4a3ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442375238082:android:fc6eeaf6cb94a9fcc6e65b",
+        "android_client_info": {
+          "package_name": "com.example.vepop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442375238082-rseiguorkcr6r6n6psrgdrqqg2pdr4qn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vepop",
+            "certificate_hash": "f86f7b3b72f4492ac6cced08e80716bd58d4d95b"
+          }
+        },
+        {
+          "client_id": "442375238082-ilnsl5hi2vksrdg78fble97gksrufmgf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXLAYidoY-P3tc3DhqyzMm_hAL_oAVFVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "442375238082-ilnsl5hi2vksrdg78fble97gksrufmgf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

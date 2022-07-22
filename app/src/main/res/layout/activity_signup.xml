@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context=".SignupActivity">
+
+
+    <TextView
+        android:id="@+id/tvCreateAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:text="CREATE AN ACCOUNT"
+        android:textColor="@color/yellow"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/etFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/login_input"
+        android:ems="15"
+        android:hint="First Name"
+        android:padding="20dp"
+        app:layout_constraintStart_toStartOf="@id/tvCreateAccount"
+        app:layout_constraintTop_toBottomOf="@id/tvCreateAccount">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/etLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/login_input"
+        android:ems="15"
+        android:hint="Last Name"
+        android:padding="20dp"
+        app:layout_constraintStart_toStartOf="@id/etFirstName"
+        app:layout_constraintTop_toBottomOf="@id/etFirstName">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/etEnterEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/login_input"
+        android:ems="15"
+        android:hint="Enter Email"
+        android:padding="20dp"
+        app:layout_constraintStart_toStartOf="@id/etLastName"
+        app:layout_constraintTop_toBottomOf="@id/etLastName">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/etEnterPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/login_input"
+        android:ems="15"
+        android:inputType="textPassword"
+        android:hint="Enter Password"
+        android:padding="20dp"
+        app:layout_constraintStart_toStartOf="@id/etEnterEmail"
+        app:layout_constraintTop_toBottomOf="@id/etEnterEmail">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/etConfirmPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/login_input"
+        android:ems="15"
+        android:inputType="textPassword"
+        android:hint="Confirm Password"
+        android:padding="20dp"
+        app:layout_constraintStart_toStartOf="@id/etEnterPassword"
+        app:layout_constraintTop_toBottomOf="@id/etEnterPassword">
+
+    </EditText>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/mbSignup"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        app:shapeAppearanceOverlay="@style/PillShapeAppearance"
+        android:text="Signup"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@id/checkBox"
+        app:layout_constraintTop_toBottomOf="@id/checkBox"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tvAlreadyAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account?"
+        app:layout_constraintStart_toStartOf="@id/mbSignup"
+        app:layout_constraintTop_toBottomOf="@+id/mbSignup"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/tvCanLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="Login"
+        app:layout_constraintStart_toEndOf="@id/tvAlreadyAccount"
+        app:layout_constraintTop_toBottomOf="@id/mbSignup"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:focusable="true" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I agree to the Terms and Conditions"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@id/etConfirmPassword"
+        app:layout_constraintTop_toBottomOf="@id/etConfirmPassword"
+         />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">vepop</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="welcome_to">Welcome to,</string>
+    <string name="vepop">vepop</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="err_msg_login">Login</string>
+    <string name="err_msg_signup">Signup</string>
+    <string name="err_msg_enter_email">Enter Email</string>
+    <string name="err_msg_enter_password">Enter Password</string>
+    <string name="err_msg_enter_first_name">Please enter your First Name</string>
+    <string name="err_msg_enter_last_name">Please enter your Last Name</string>
+    <string name="err_msg_enter_confirm_password">Please enter confirm password</string>
+    <string name="err_msg_enter_password_dont_match">Passwords don\'t match</string>
+    <string name="err_msg_agree_terms_and_conditions">Please agree to the Terms and conditions</string>
+    <string name="title_activity_forgot">forgot</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_forgot1">forgot1</string>
+    <string name="email_sent_success">"email sent "</string>
+    <string name="register_success">You are registered successfully</string>
+    <string name="read_storage_permission_denied">Oops, you just dined the permission for storage you can allow it from settings</string>
+    <string name="image_selection_failed">"failed "</string>
+</resources>
